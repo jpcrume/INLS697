@@ -20,7 +20,9 @@ body {
 }
 
 .navbar {
+    
     background-color: transparent !important;
+    padding-left: 20px;
 }
 
 .nav-item {
@@ -149,8 +151,15 @@ footer a, a:hover, footer a:visited {
 }
 
 .title-home {
-    margin: 20px;
     font-size: 25px;
     font-weight: 700;
     /**/
+}
+
+.navbar-toggler {
+    margin-right: 10px;
+}
+
+.nav-link {
+
 }
