@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root {
+    --main-color: rgb(8,83,168);
+    --dark-color: #143E6D;
+    --accent-color: #ffb238;
+    --white-color: rgb(248, 249, 250);
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+}
+
+.navbar a:hover {
+    color: var(--main-color) !important;
+}
+
+.navbar {
+    background-color: transparent !important;
+}
+
+.nav-item {
+    margin-right: 40px;
+}
+
+.container {
+    /*background-color: var(--white-color);*/
+    padding: 0px;
+}
+
+.row {
+    margin: auto;
+    color: rgb(52, 58, 64);
+}
+
+.landing-page {
+    /*color: var(--white-color);*/
+    height: 600px;
+    /*Gradient or edit image */
+    /* background: linear-gradient(10deg, var(--dark-color) 0%, rgba(255,253,228,0) 100%);*/
+    margin-top: 0%;
+    background-image: url(/ASSESTS/cyber_bg.webp);
+    background-size: 100%; 
+    background-repeat: no-repeat;
+}
+
+.landing-page h1 {
+    font-size: 40pt;
+}
+
+.white-text {
+    color: white;
+}
+
+.btn {
+    color: var(--white-color);
+    background: var(--main-color);
+    border: 0px;
+}
+
+
+.blue-bg {
+    color: var(--white-color);
+    background: var(--main-color);
+    background: linear-gradient(270deg, rgba(8,83,168,1) 0%, rgba(13,108,217,1) 100%);
+    /*background: linear-gradient(10deg, rgba(0,90,167,1) 0%, rgba(255,253,228,1) 100%);*/
+}
+
+.stat-bar {
+    
+}
+
+.stat-h5 {
+    font-size: 24pt;
+    font-weight: 700;
+    text-align: center;
+}
+
+.article-page {
+    /*color: var(--white-color);*/
+    height: 300px;
+    /*Gradient or edit image */
+    /* background: linear-gradient(10deg, var(--dark-color) 0%, rgba(255,253,228,0) 100%);*/
+    margin-top: 0%;
+    background-image: url(/ASSESTS/phishing.webp);
+    background-size: 100%; 
+    background-repeat: no-repeat;
+}
+
+.article-row {
+    /* Set height */
+}
+
+.news-container {
+    border: 1px solid #D9D9D9;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.news-container img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.news-container-title {
+    padding: 20px;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.news-sidebar-title {
+    padding-left: 20px;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.news-container-desc {
+    padding: 20px;
+}
+
+.card-title {
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal; 
+}
+
+footer {
+    margin-top: 20px;
+    color: white !important;
+    background: rgb(8,83,168);
+    background: linear-gradient(270deg, rgba(8,83,168,1) 0%, rgba(20,62,109,1) 100%);
+}
+
+body footer p {
+    color: white !important;
+}
+
+footer a, a:hover, footer a:visited {
+    color: white !important;
+}
+
+.title-home {
+    margin: 20px;
+    font-size: 25px;
+    font-weight: 700;
+    /**/
+}
