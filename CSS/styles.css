@@ -20,9 +20,7 @@ body {
 }
 
 .navbar {
-    
     background-color: transparent !important;
-    padding-left: 20px;
 }
 
 .nav-item {
@@ -39,13 +37,17 @@ body {
     color: rgb(52, 58, 64);
 }
 
+.title-margin {
+    /*margin-top: 10%;*/
+}
+
 .landing-page {
     /*color: var(--white-color);*/
     height: 600px;
     /*Gradient or edit image */
     /* background: linear-gradient(10deg, var(--dark-color) 0%, rgba(255,253,228,0) 100%);*/
     margin-top: 0%;
-    background-image: url(../ASSETS/cyber_bg.webp);
+    background-image: url(../assets/cyber_bg.webp);
     background-size: 100%; 
     background-repeat: no-repeat;
 }
@@ -88,7 +90,7 @@ body {
     /*Gradient or edit image */
     /* background: linear-gradient(10deg, var(--dark-color) 0%, rgba(255,253,228,0) 100%);*/
     margin-top: 0%;
-    background-image: url(../ASSETS/phishing.webp);
+    background-image: url(../assets/phishing.webp);
     background-size: 100%; 
     background-repeat: no-repeat;
 }
@@ -148,18 +150,4 @@ body footer p {
 
 footer a, a:hover, footer a:visited {
     color: white !important;
-}
-
-.title-home {
-    font-size: 25px;
-    font-weight: 700;
-    /**/
-}
-
-.navbar-toggler {
-    margin-right: 10px;
-}
-
-.nav-link {
-
 }
