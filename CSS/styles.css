@@ -45,7 +45,7 @@ body {
     /*Gradient or edit image */
     /* background: linear-gradient(10deg, var(--dark-color) 0%, rgba(255,253,228,0) 100%);*/
     margin-top: 0%;
-    background-image: url(/ASSESTS/cyber_bg.webp);
+    background-image: url(../ASSETS/cyber_bg.webp);
     background-size: 100%; 
     background-repeat: no-repeat;
 }
@@ -88,7 +88,7 @@ body {
     /*Gradient or edit image */
     /* background: linear-gradient(10deg, var(--dark-color) 0%, rgba(255,253,228,0) 100%);*/
     margin-top: 0%;
-    background-image: url(/ASSESTS/phishing.webp);
+    background-image: url(../ASSETS/phishing.webp);
     background-size: 100%; 
     background-repeat: no-repeat;
 }
