@@ -86,13 +86,17 @@ body {
 
 .article-page {
     /*color: var(--white-color);*/
-    height: 300px;
+    height: 400px;
     /*Gradient or edit image */
     /* background: linear-gradient(10deg, var(--dark-color) 0%, rgba(255,253,228,0) 100%);*/
     margin-top: 0%;
-    background-image: url(../assets/phishing.webp);
+    background-image: url(../assets/misinformation-hero-news-jan-2023.jpg);
     background-size: 100%; 
     background-repeat: no-repeat;
+}
+
+.shadow-text {
+    text-shadow: 6px 6px 9px rgba(0, 0, 0, 0.7);
 }
 
 .article-row {
