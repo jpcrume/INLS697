@@ -60,11 +60,6 @@ body {
     color: white;
 }
 
-.btn {
-    color: var(--white-color);
-    background: var(--main-color);
-    border: 0px;
-}
 
 
 .blue-bg {
@@ -154,4 +149,42 @@ body footer p {
 
 footer a, a:hover, footer a:visited {
     color: white !important;
+}
+
+.nav-link {
+    padding-left: 20px;
+
+}
+
+.nav-link:hover, .nav-link:focus {
+    color:#143E6D;
+}
+
+
+.btn {
+    color: var(--white-color);
+    background: var(--main-color);
+    border: 0px;
+    padding: 10px;
+
+}
+
+.navbar-brand {
+    padding-left: 7px;
+
+}
+
+.navbar-brand:hover, .navbar-brand:focus {
+    padding-left: 7px;
+    color: black;
+}
+
+/*.ms-auto:hover, .ms-auto:focus {
+    background-color: #7998bb;
+}*/
+
+.btn:hover, .btn:focus {
+    padding: 10px;
+    background-color: #7998bb;
+    color: black;
 }
