@@ -26,3 +26,15 @@ ol {
 p b {
     margin-top: 10px;
 }
+
+.indent {
+    margin-left: 20px;
+}
+
+.indent-more{
+    margin-left: 40px;
+}
+
+.indent-final {
+    margin-left: 60px;
+}
