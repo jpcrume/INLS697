@@ -1,52 +1,52 @@
 // /JS/quiz.js
 const quizData = [
     {
-        question: "True or False: Disinformation is false information that is spread unintentionally.",
+        question: "Question 1/10: Disinformation is false information that is spread unintentionally.",
         answers: ["True", "False"],
         correct: 1
     },
     {
-        question: "Which of the following is an example of false context?",
+        question: "Question 2/10: Which of the following is an example of false context?",
         answers: ["A parody article shared without context", "A quote from 2020 shared in 2024 without mentioning updated guidelines", "An AI-generated deepfake video", "A photoshopped image of a celebrity"],
         correct: 1
     },
     {
-        question: "Which of these is NOT a form of disinformation?",
+        question: "Question 3/10: Which of these is NOT a form of disinformation?",
         answers: ["Sponsored Content", "Fabricated Content", "Imposter Content", "Manipulated Content"],
         correct: 0
     },
     {
-        question: "True or False: Clickbait headlines are a type of false connection.",
+        question: "Question 4/10: Clickbait headlines are a type of false connection.",
         answers: ["True", "False"],
         correct: 0
     },
     {
-        question: "What is a key sign of an imposter content account?",
+        question: "Question 5/10: What is a key sign of an imposter content account?",
         answers: ["Reverse image search shows altered visuals", "It has a strange URL", "It uses branding from trusted sources but has no verification", "The content is written in a humorous tone"],
         correct: 2
     },
     {
-        question: "True or False: Propaganda always involves completely false information.",
+        question: "Question 6/10: Propaganda always involves completely false information.",
         answers: ["True", "False"],
         correct: 1
     },
     {
-        question: "Which type of content is intended for entertainment but may still mislead unintentionally?",
+        question: "Question 7/10: Which type of content is intended for entertainment but may still mislead unintentionally?",
         answers: ["Error", "Satire and Parody", "Propaganda", "Cherry-picked Data"],
         correct: 1
     },
     {
-        question: "True or False: Reverse image search is a recommended method to verify suspicious photos.",
+        question: "Question 8/10: Reverse image search is a recommended method to verify suspicious photos.",
         answers: ["True", "False"],
         correct: 0 
     },
     {
-        question: "What might indicate a video is a deepfake?",
+        question: "Question 9/10: What might indicate a video is a deepfake?",
         answers: ["It contains charts with misleading scales", "The speaker blinks unnaturally or audio doesn't sync", "The headline doesn't match the story", "It uses satire to criticize politics"],
         correct: 1
     },
     {
-        question: "Which of the following tips helps detect manipulated or false content online?",
+        question: "Question 10/10: Which of the following tips helps detect manipulated or false content online?",
         answers: ["Always trust viral content", "Share posts before reading the full article", "Ignore the date of publication", "Look for emotional language and sensationalism"],
         correct: 3
     },
