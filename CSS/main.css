@@ -1,5 +1,6 @@
 .example-h1 {
-
+    font-size: 20px;
+    margin-top: 50px;
 }
 
 .example-h2 {
@@ -37,4 +38,53 @@ p b {
 
 .indent-final {
     margin-left: 60px;
+}
+
+.source-link:hover, .source-link:focus {
+    color: black;
+}
+
+h3 {
+    margin-top: 100px;
+    font-weight: 650;
+}
+
+.no-margin {
+    margin-top: 0;
+}
+
+.b-bigger {
+    font-size: 18px;
+}
+
+.img-margin {
+    margin-top: 40px;
+}
+
+.tips {
+    list-style: none;
+    padding-left: 0;
+}
+
+.tips li {
+    font-weight: 700;
+}
+
+.tips p {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.tips-tools-list li {
+    font-weight: 400;
+    list-style: none;
+}
+
+.tips-tools-list li::before {
+    content: "-      ";
+    margin: 0;
+}
+
+.my-5 u {
+    font-weight: 700;
 }
