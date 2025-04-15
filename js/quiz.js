@@ -38,7 +38,7 @@ const quizData = [
     {
         question: "True or False: Reverse image search is a recommended method to verify suspicious photos.",
         answers: ["True", "False"],
-        correct: 0
+        correct: 0 
     },
     {
         question: "What might indicate a video is a deepfake?",
