@@ -184,6 +184,14 @@ footer a, a:hover, footer a:visited {
 
 .btn:hover, .btn:focus {
     padding: 10px;
-    background-color: #7998bb;
+    background-color: #fecb7c;
     color: black;
+}
+
+main a, a:hover, a:focus {
+    color: #242865 !important;
+}
+
+.col-md-12, p {
+    text-align: center;
 }
