@@ -14,7 +14,7 @@
 </head>
 <body>
     <nav class="navbar navbar-expand-lg">
-        <a class="navbar-brand" href="#"><b>Decoding Disinformation</b></a>
+        <a class="navbar-brand title" href="#">Decoding Disinformation</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -39,9 +39,9 @@
         </div>
     </nav>
 
-    <div class="container my-5">
-      <h1><strong>Report Incident</strong></h1>
-      <p>Please fill out the form below to report an incident.</p>
+    <div class="container my-5 about-text space">
+      <h1><strong>Report An Incident</strong></h1>
+      <p class="space">Help us find and report misinformation and disinformation on the internet! Please fill out the form below to report an incident:</p>
   
       <form id="incidentForm">
           <div class="mb-3">
@@ -59,8 +59,12 @@
               <textarea id="incident" name="incident" class="form-control" rows="4" required></textarea>
           </div>
   
-          <button type="button" class="btn btn-primary" onclick="sendEmail()">Submit Report</button>
+          <button type="button" class="btn btn-primary report" onclick="sendEmail()">Submit Report</button>
       </form>
+  </div>
+
+  <div class="empty">
+
   </div>
   
   <script>
@@ -86,7 +90,10 @@
   </script>
   
     
-      
+ 
+  <div class="empty"> 
+
+  </div>
 
     <footer class="py-3 footer">
         <ul class="nav justify-content-center px-3 mx-3">

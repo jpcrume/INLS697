@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 :root {
-    --main-color: rgb(8,83,168);
+    --main-color: #0853a8;
     --dark-color: #143E6D;
     --accent-color: #ffb238;
     --white-color: rgb(248, 249, 250);
@@ -21,6 +21,7 @@ body {
 
 .navbar {
     background-color: transparent !important;
+
 }
 
 .nav-item {
@@ -221,4 +222,47 @@ main a, a:hover, a:focus {
 .about-text p {
     margin-bottom: 50px;
     font-size: 18px;
+}
+
+footer p {
+    margin-top: 30px;
+}
+
+.report {
+    background: linear-gradient(120deg, #0853a8, #143E6D, #ffb238);
+    background-size: 200% 100%;
+    background-position: 100% 0;
+    transition: background-position .5s;
+}
+
+.report:hover, .report:focus {
+    background-position: 0 0;
+    color: white;
+}
+
+.space {
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.title {
+    color: #FFB338; 
+    background-image: linear-gradient(270deg, #FFB338 0%, #0853A8 50%, #143E6E 100%); 
+    background-clip: text; 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+    font-weight: 600;
+    background-size: 200% 100%;
+    background-position: left center;
+    transition: background-position 0.2s ease-in;
+}
+
+.title:hover, .title:focus {
+    /*color: #FFB338; 
+    background-image: linear-gradient(270deg, #0853A8 0%, #FFB338 50%, #143E6E 100%); 
+    background-clip: text; 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+    font-weight: 600;*/
+    background-position: right center;
 }

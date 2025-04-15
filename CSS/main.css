@@ -45,7 +45,6 @@ p b {
 }
 
 h3 {
-    margin-top: 100px;
     font-weight: 650;
 }
 
@@ -91,4 +90,8 @@ h3 {
 
 .source-link {
     color: rgb(8,83,168);
+}
+
+.main-headers {
+    margin-top: 100px;
 }
