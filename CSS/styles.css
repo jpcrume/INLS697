@@ -142,7 +142,7 @@ body footer p {
     color: white !important;
 }
 
-footer a, a:hover, footer a:visited {
+footer a:visited {
     color: white !important;
 }
 
@@ -265,4 +265,8 @@ footer p {
     -webkit-text-fill-color: transparent; 
     font-weight: 600;*/
     background-position: right center;
+}
+
+footer a:hover, footer a:focus {
+    color:#ffb238 !important; 
 }
