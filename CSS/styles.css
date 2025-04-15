@@ -192,6 +192,6 @@ main a, a:hover, a:focus {
     color: #242865 !important;
 }
 
-.col-md-12, p {
+.stat-bar p {
     text-align: center;
 }
